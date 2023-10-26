@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: hsl(192, 87%, 51%);
+          padding: 20px;
+          text-align: center;
+          margin:20px;
+        }
+        .footer {
+          background-color: hsl(192, 87%, 51%);
+          padding: 20px;
+          text-align: center;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  
+  height: 400px; /* Should be removed. Only for demonstration */
+  margin:20px;
+  background-color: darkgray;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section{  
+ 
+padding:15px;  
+margin:10px;  
+}  
+button {
+    padding: 15px 60px; 
+    margin-top: 30px; 
+    border-radius: 5rem;
+    border: 0; 
+    cursor: pointer; 
+    color: #674baf;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+
+button:hover {
+    color: #fff; 
+    background: hwb(300 4% 95%); 
+}
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+      </div>
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <section>  
+                <h3> Jawaharlal Nehru </h3>  
+                <p> Jawaharlal Nehru was the first Prime Minister of India and a central figure in   
+                Indian politics for much of the 20th century. He emerged as the paramount leader of the Indian   
+                independence movement under the tutelage of Mahatma Gandhi. -Source Wikipedia </p>  
+                </section>  
+                <button>Register</button>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+         
+        </div>
+      </div>
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div>
+      </div>
+      
+      
+      <div class="footer">
+        <h1>Footer</h1>
+      </div>
+      
+      
+</body>
+</html>
